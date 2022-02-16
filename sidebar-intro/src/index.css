@@ -102,3 +102,14 @@ Modal
 .social-icons a:hover {
   color: var(--clr-primary-1);
 }
+/*
+=============== 
+Sidebar
+===============
+*/
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
