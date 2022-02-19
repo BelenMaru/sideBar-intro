@@ -127,3 +127,17 @@ Sidebar
   transition: var(--transition);
   transform: translate(-100%);
 }
+
+.close-btn {
+  font-size: 1.75rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--clr-primary-5);
+  transition: var(--transition);
+  cursor: pointer;
+  color: var(--clr-red-dark);
+  margin-top: 0.2rem;
+}
+.close-btn:hover {
+  color: var(--clr-red-light);
+}
