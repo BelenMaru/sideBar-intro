@@ -61,6 +61,11 @@ Modal
   visibility: hidden;
   z-index: -1;
 }
+/* OPEN/CLOSE MODAL */
+.show-modal {
+  visibility: visible;
+  z-index: 10;
+}
 .modal-container {
   background: var(--clr-white);
   border-radius: var(--radius);
