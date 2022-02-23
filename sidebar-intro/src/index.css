@@ -146,3 +146,8 @@ Sidebar
 .close-btn:hover {
   color: var(--clr-red-light);
 }
+.links a {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+}
