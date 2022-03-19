@@ -197,3 +197,7 @@ Sidebar
   margin: 0.5rem;
   font-size: 0.875rem;
 }
+.btn:hover {
+  color: var(--clr-black);
+  background: transparent;
+}
