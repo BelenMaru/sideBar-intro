@@ -201,3 +201,6 @@ Sidebar
   color: var(--clr-black);
   background: transparent;
 }
+.show-sidebar {
+  transform: translate(0);
+}
