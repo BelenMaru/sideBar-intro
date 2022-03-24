@@ -83,6 +83,12 @@ Modal
   visibility: hidden;
   z-index: -1;
 }
+/*section*/
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
 /* OPEN/CLOSE MODAL */
 .show-modal {
   visibility: visible;
