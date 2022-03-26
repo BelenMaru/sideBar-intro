@@ -190,6 +190,8 @@ Sidebar
   display: flex;
   align-items: center;
   font-size: 1.25rem;
+  text-transform: capitalize;
+  padding: 1rem 1.5rem;
 }
 @keyframes bounce {
   0% {
