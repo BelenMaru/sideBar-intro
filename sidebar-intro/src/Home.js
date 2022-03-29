@@ -10,6 +10,7 @@ const Home = () => {
       <button className="btn">show modal</button>
     </main>
   );
+  
 };
 
 export default Home;
