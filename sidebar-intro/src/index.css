@@ -196,6 +196,10 @@ Sidebar
   transition: var(--transition);
   letter-spacing: var(--spacing);
 }
+.links a:hover {
+  background: var(--clr-grey-10);
+  color: var(--clr-grey-2);
+}
 @keyframes bounce {
   0% {
     transform: scale(1);
