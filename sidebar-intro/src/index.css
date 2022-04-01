@@ -203,6 +203,7 @@ Sidebar
 .link a svg {
   font-size: 1.5rem;
   margin-right: 1rem;
+  transition: var(--transition);
 }
 @keyframes bounce {
   0% {
