@@ -230,6 +230,8 @@ Sidebar
   padding: 0.375rem 0.75rem;
   margin: 0.5rem;
   font-size: 0.875rem;
+  display: inline-block;
+  transition: var(--transition);
 }
 .btn:hover {
   color: var(--clr-black);
