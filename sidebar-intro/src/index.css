@@ -232,6 +232,8 @@ Sidebar
   font-size: 0.875rem;
   display: inline-block;
   transition: var(--transition);
+  border: 2px solid var(--clr-black);
+  border-radius: var(--radius);
 }
 .btn:hover {
   color: var(--clr-black);
