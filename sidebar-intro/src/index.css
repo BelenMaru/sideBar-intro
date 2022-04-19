@@ -217,6 +217,7 @@ Sidebar
 .social-icons a {
   font-size: 1.5rem;
   margin: 0 0.5rem;
+  color: var(--clr-primary-5);
 }
 @keyframes bounce {
   0% {
