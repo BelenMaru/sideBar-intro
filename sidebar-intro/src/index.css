@@ -138,6 +138,7 @@ Modal
 main {
   min-height: 100vh;
   display: flex;
+  justify-content: center;
 }
 /* OPEN/CLOSE MODAL */
 .show-modal {
