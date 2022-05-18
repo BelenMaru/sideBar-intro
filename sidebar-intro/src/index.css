@@ -221,6 +221,8 @@ Sidebar
   border-color: transparent;
   color: var(--clr-primary-5);
   transition: var(--transition);
+  cursor: pointer;
+  animation: bounce 2s ease-in-out infinite;
 }
   .close-btn {
   font-size: 1.75rem;
