@@ -124,6 +124,9 @@ Modal
   visibility: hidden;
   z-index: -1;
 }
+.show-modal {
+  visibility: visible;
+}
 /*section*/
 .section {
   width: 90vw;
