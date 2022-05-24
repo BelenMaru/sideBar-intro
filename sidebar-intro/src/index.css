@@ -126,6 +126,7 @@ Modal
 }
 .show-modal {
   visibility: visible;
+   z-index: 10;
 }
 /*section*/
 .section {
