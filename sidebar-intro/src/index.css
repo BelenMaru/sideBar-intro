@@ -261,6 +261,8 @@ Sidebar
   color: var(--clr-grey-5);
   transition: var(--transition);
 }
+.links a:hover svg {
+  color: var(--clr-grey-4);
 }
 .social-icons {
   justify-self: center;
