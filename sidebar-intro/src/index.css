@@ -161,6 +161,11 @@ main {
   place-items: center;
   position: relative;
 }
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .close-modal-btn {
   position: absolute;
   top: 1rem;
