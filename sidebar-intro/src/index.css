@@ -169,6 +169,8 @@ main {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   display: grid;
+  place-items: center;
+  transition: var(--transition);
 }
 .close-modal-btn {
   position: absolute;
