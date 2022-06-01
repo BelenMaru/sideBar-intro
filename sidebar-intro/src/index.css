@@ -171,6 +171,7 @@ main {
   display: grid;
   place-items: center;
   transition: var(--transition);
+  visibility: hidden;
 }
 .close-modal-btn {
   position: absolute;
