@@ -81,6 +81,9 @@ h4 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
 }
+h1 {
+  font-size: 3rem;
+}
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
