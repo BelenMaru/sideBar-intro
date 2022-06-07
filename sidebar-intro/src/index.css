@@ -87,6 +87,9 @@ h1 {
 h2 {
   font-size: 2rem;
 }
+h3 {
+  font-size: 1.25rem;
+}
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
