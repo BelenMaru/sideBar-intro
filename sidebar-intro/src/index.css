@@ -224,7 +224,7 @@ Sidebar
 .sidebar-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   padding: 1rem 1.5rem;
 }
 .sidebar {
