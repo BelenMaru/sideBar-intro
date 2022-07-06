@@ -1,5 +1,5 @@
 import React from "react";
-// import logo from "./logo.svg";
+import logo from "./logo.svg";
 import { FaTimes } from "react-icons/fa";
 import { social, links } from "./data";
 
@@ -12,7 +12,7 @@ const Sidebar = () => {
           <FaTimes />
         </button>
       </div>
-      <ul className="links">
+      {/* <ul className="links">
         {links.map((link) => {
           const { id, url, text, icon } = link;
           return (
@@ -24,7 +24,7 @@ const Sidebar = () => {
             </li>
           );
         })}
-      </ul>
+      </ul> */}
       <ul className="social-icons">
         {social.map((link) => {
           const { id, url, icon } = link;
