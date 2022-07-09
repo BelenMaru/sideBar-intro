@@ -9,6 +9,7 @@ function App() {
     <Home />
     <Modal />
     <Sidebar />
+   <context />
     </>
   )
 }
