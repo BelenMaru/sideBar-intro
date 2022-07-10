@@ -2,14 +2,14 @@ import React from 'react'
 import Modal from './Modal'
 import Sidebar from './Sidebar'
 import Home from './Home'
-import context from './context'
+import Context from './Context'
 function App() {
   return (
     <>
     <Home />
     <Modal />
     <Sidebar />
-   <context />
+    <Context />
     </>
   )
 }

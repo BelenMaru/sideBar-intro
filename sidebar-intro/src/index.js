@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { AppProvider } from "./context";
+import { AppProvider } from "./Context";
 import App from './App';
 
 
