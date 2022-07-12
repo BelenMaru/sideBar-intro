@@ -157,6 +157,18 @@ main {
   justify-content: center;
   align-items: center;
 }
+.sidebar-toggle {
+  position: fixed;
+  top: 2rem;
+  left: 3rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--clr-primary-5);
+  transition: var(--transition);
+  cursor: pointer;
+  animation: bounce 2s ease-in-out infinite;
+}
 /* OPEN/CLOSE MODAL */
 .show-modal {
   visibility: visible;
@@ -241,18 +253,7 @@ Sidebar
   transition: var(--transition);
   transform: translate(-100%);
 }
-.sidebar-toggle {
-  position: fixed;
-  top: 2rem;
-  left: 3rem;
-  font-size: 2rem;
-  background: transparent;
-  border-color: transparent;
-  color: var(--clr-primary-5);
-  transition: var(--transition);
-  cursor: pointer;
-  animation: bounce 2s ease-in-out infinite;
-}
+
   .close-btn {
   font-size: 1.75rem;
   background: transparent;
