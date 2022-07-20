@@ -217,7 +217,7 @@ main {
 .social-icons {
   justify-self: center;
   display: flex;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }
 .social-icons a {
   font-size: 1.5rem;
@@ -337,5 +337,6 @@ Sidebar
 @media screen and (min-width: 676px) {
   .sidebar {
     width: 600px;
+
   }
 }
