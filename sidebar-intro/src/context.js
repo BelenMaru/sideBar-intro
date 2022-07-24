@@ -4,7 +4,11 @@ const AppContext = React.createContext();
 const AppProvider = ({children}) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isModalOpen, setIsModalbarOpen] = useState(false);
-  
+
+   const OpenSidebar = () => {
+     setIsSidebarOpen(true);
+   };
+
   return <AppContext.Provider value="hello">{children}</AppContext.Provider>;
 }
 // custom hook
