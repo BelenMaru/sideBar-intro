@@ -13,6 +13,10 @@ const AppProvider = ({children}) => {
      setIsSidebarOpen(false);
    };
 
+   const OpenModal = () => {
+     setIsModalOpen(true);
+   };
+
   return <AppContext.Provider value="hello">{children}</AppContext.Provider>;
 }
 // custom hook
