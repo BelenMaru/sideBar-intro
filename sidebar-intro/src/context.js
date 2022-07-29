@@ -20,7 +20,8 @@ const AppProvider = ({children}) => {
   return <AppContext.Provider 
   value={(
     isModalOpen,
-    isSidebarOpen
+    isSidebarOpen,
+    OpenModal
   )}>{children}</AppContext.Provider>;
 }
 // custom hook
