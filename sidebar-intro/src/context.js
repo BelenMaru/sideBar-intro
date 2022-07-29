@@ -17,7 +17,11 @@ const AppProvider = ({children}) => {
      setIsModalOpen(true);
    };
 
-  return <AppContext.Provider value="hello">{children}</AppContext.Provider>;
+  return <AppContext.Provider 
+  value={(
+    isModalOpen,
+    isSidebarOpen
+  )}>{children}</AppContext.Provider>;
 }
 // custom hook
 export const useGlobalContext =()=> {
