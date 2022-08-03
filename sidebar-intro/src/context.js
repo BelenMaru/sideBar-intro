@@ -5,7 +5,7 @@ const AppProvider = ({children}) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isModalOpen, setIsModalbarOpen] = useState(false);
 
-   const OpenSidebar = () => {
+   const openSidebar = () => {
      setIsSidebarOpen(true);
    };
 
@@ -13,15 +13,20 @@ const AppProvider = ({children}) => {
      setIsSidebarOpen(false);
    };
 
-   const OpenModal = () => {
+   const openModal = () => {
      setIsModalOpen(true);
+   };
+
+   const closeModal = () => {
+     setIsModalOpen(false);
    };
 
   return <AppContext.Provider 
   value={(
     isModalOpen,
     isSidebarOpen,
-    OpenModal
+    openModal,
+    openSidebar
   )}>{children}</AppContext.Provider>;
 }
 // custom hook
