@@ -27,7 +27,8 @@ const AppProvider = ({children}) => {
     isSidebarOpen,
     openModal,
     openSidebar,
-    closeModal
+    closeModal,
+    closeSidebar
   )}>{children}</AppContext.Provider>;
 }
 // custom hook
