@@ -3,7 +3,7 @@ import { FaBars } from "react-icons/fa";
 import { AppContext, useGlobalContext } from "./Context";
 const Home = () => {
   // const data = useContext(AppContext);
-  const {openSidebar} = useGlobalContext();
+  const {openSidebar,openModal} = useGlobalContext();
   console.log(data);
   return (
     <main>
