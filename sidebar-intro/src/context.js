@@ -29,7 +29,7 @@ const AppProvider = ({children}) => {
     openSidebar,
     closeModal,
     closeSidebar
-  )}>{children}</AppContext.Provider>;
+  )}>{children}</AppContext.Provider>
 }
 // custom hook
 export const useGlobalContext =()=> {
