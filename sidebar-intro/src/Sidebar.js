@@ -4,6 +4,7 @@ import { FaTimes } from "react-icons/fa";
 import { social, links } from "./data";
 import { useGlobalContext } from "./context";
 const Sidebar = () => {
+  const { isSidebarOpen, closeSidebar } = useGlobalContext();
   return (
     <aside className={`${isSidebarOpen ? "sidebar show-sidebar" : "sidebar"}`}>
       <div className="sidebar-header">
