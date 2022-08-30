@@ -329,7 +329,7 @@ Sidebar
 }
 .btn:hover {
   color: var(--clr-black);
-  background: var(--clr-black);
+  background: transparent;
 }
 .show-sidebar {
   transform: translate(0);
