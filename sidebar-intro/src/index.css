@@ -309,7 +309,7 @@ Sidebar
     transform: scale(1.5);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1.5);
   }
 }
 .btn {
